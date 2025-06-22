@@ -1,0 +1,51 @@
+{
+  "name": "neura.ai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "build": {
+    "productName": "neura.ai",
+    "appId": "com.neura.app",
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "y4th4rthh",
+        "repo": "neura.ai-releases"
+      }
+    ],
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "build/**/*",
+      "main.js"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "neura.ai.ico"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "electron": "^25.8.4",
+    "electron-builder": "^26.0.12"
+  },
+  "dependencies": {
+    "electron-updater": "^6.6.2"
+  }
+}
