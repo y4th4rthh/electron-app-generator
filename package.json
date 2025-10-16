@@ -29,13 +29,13 @@
           ]
         }
       ],
-      "icon": "neura.ai.ico"
+      "icon": "neura.ico"
     }
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron .",
-    "build": "electron-builder"
+    "dist": "electron-builder"
   },
   "keywords": [],
   "author": "",
@@ -44,8 +44,5 @@
   "devDependencies": {
     "electron": "^25.8.4",
     "electron-builder": "^26.0.12"
-  },
-  "dependencies": {
-    "electron-updater": "^6.6.2"
   }
 }
