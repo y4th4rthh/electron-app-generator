@@ -1,4 +1,4 @@
-# 🚀 Electron WebApp Generator
+# 🚀 Electron App Generator
 
 This tool lets you easily generate a **Windows `.exe` app** bundle from your **ReactJS web app** using **Electron**.
 
@@ -119,5 +119,3 @@ npm run dist
 ```
 
 ---
-
-MIT License © 2025 [Your Name]
