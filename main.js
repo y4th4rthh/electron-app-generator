@@ -16,6 +16,20 @@ function createWindow() {
   win.loadFile(path.join(__dirname, 'build', 'index.html'));
 
   // win.webContents.openDevTools();
+
+   win.webContents.setWindowOpenHandler(({ url }) => {
+    shell.openExternal(url);
+    return { action: 'deny' };
+  });
+
+  win.webContents.on('will-navigate', (event, url) => {
+    const currentUrl = win.webContents.getURL();
+    if (url !== currentUrl) {
+      event.preventDefault();
+      shell.openExternal(url);
+    }
+  });
+  
 }
 
 app.whenReady().then(createWindow);
