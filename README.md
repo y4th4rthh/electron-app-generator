@@ -67,6 +67,8 @@ iconapp.ico
 
 This will be used as your Electron app’s icon.
 
+Change app name and versioning accordingly in the package.json
+
 ---
 
 ### 6️⃣ Generate the `.exe` file
