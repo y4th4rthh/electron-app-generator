@@ -1,4 +1,4 @@
-const { app, BrowserWindow } = require('electron');
+const { app, BrowserWindow,shell } = require('electron');
 const path = require('path');
 
 function createWindow() {
@@ -35,4 +35,5 @@ function createWindow() {
 app.whenReady().then(createWindow);
 
  // Open Chrome DevTools
+
 
