@@ -23,17 +23,22 @@
     "win": {
       "target": [
         {
-          "target": "portable",
-          "arch": [
-            "x64"
-          ]
+          "target": "nsis",
+          "arch": ["x64"]
         }
       ],
-      "icon": "iconapp.ico"
+      "icon": "neura.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Neura AI"
     }
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron .",
     "dist": "electron-builder"
   },
