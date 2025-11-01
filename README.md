@@ -62,7 +62,7 @@ electron-webapp-generator/
 Place your app icon (`.ico` file) in this folder and **rename it to:**
 
 ```
-iconapp.ico
+icon.ico
 ```
 
 This will be used as your Electron app’s icon.
