@@ -29,6 +29,10 @@
       ],
       "icon": "icon.ico"
     },
+     "linux": {
+    "target": "AppImage",
+    "category": "Utility"
+  },
     "nsis": {
       "oneClick": false,
       "perMachine": false,
