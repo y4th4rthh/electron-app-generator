@@ -5,7 +5,7 @@ function createWindow() {
   const win = new BrowserWindow({
     width: 1280,
     height: 800,
-    icon: path.join(__dirname, 'neura.ico'),
+    icon: path.join(__dirname, 'icon.ico'),
      autoHideMenuBar: true,
     webPreferences: {
       contextIsolation: true,
@@ -35,5 +35,6 @@ function createWindow() {
 app.whenReady().then(createWindow);
 
  // Open Chrome DevTools
+
 
 
