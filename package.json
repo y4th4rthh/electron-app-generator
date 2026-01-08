@@ -1,6 +1,6 @@
 {
   "name": "neura.ai",
-  "version": "10.8.0",
+  "version": "11.0.0",
   "description": "",
   "main": "main.js",
   "build": {
@@ -57,7 +57,7 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
-    "electron": "^25.8.4",
-    "electron-builder": "^26.0.12"
+    "electron": "^39.2.7",
+    "electron-builder": "^26.4.0"
   }
 }
